@@ -1,0 +1,17 @@
+/* Custom CSS for CRUD application */
+
+.container {
+    max-width: 800px;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+  }
+  
+  .btn {
+    cursor: pointer;
+  }
