@@ -24,7 +24,20 @@
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
-
+<!-- Form for editing existing entities -->
+<form id="editForm" class="mb-4" style="display: none;">
+    <input type="hidden" id="editId" name="id">
+    <div class="form-group">
+      <label for="editName">Name:</label>
+      <input type="text" class="form-control" id="editName" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="editDescription">Description:</label>
+      <textarea class="form-control" id="editDescription" name="description" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+    <button type="button" class="btn btn-secondary" id="cancelEdit">Cancel</button>
+  </form>
   <!-- Table to display existing entities -->
   <table class="table table-striped">
     <thead>
